@@ -4,6 +4,9 @@ Complete implementation of the paper "3-D Ego-Motion Estimation Using Multi-Chan
 # RadarScenes Dataset
 https://radar-scenes.com/
 
+# Research Report
+[Google Drive Link](https://drive.google.com/file/d/1utjA5cyRrYjm8INEzAHX_-sMfSLQ1qss/view?usp=sharing)
+
 # Sample Results
 <img width="2233" height="1482" alt="frame_comparison" src="https://github.com/user-attachments/assets/99d6b697-29d7-45fa-8178-1a14ff5af36c" />
 <img width="2233" height="1482" alt="peaks_analysis_frame_0000" src="https://github.com/user-attachments/assets/35102966-cf7b-433d-bd63-bae69801cce0" />
