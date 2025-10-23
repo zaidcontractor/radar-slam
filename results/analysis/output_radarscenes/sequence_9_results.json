@@ -1,0 +1,20 @@
+{
+  "sequence_id": "sequence_9",
+  "frames_processed": 1,
+  "estimated_trajectory": [],
+  "ground_truth_trajectory": [
+    [
+      -3040.39990234375,
+      7502.33984375,
+      0.35674530267715454
+    ]
+  ],
+  "velocity_estimates": [],
+  "processing_times": [
+    3.2838008403778076,
+    4.137928009033203
+  ],
+  "frame_results": [
+    {
+      "frame_idx": 0,
+      "timestamp": 
