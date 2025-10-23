@@ -30,10 +30,10 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'evaluation'))
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from simulate_raw import FMCWRadarSimulator
-from radar_signal.dechirp import SignalPreprocessor
-from angle_estimation import AngleEstimator
-from velocity_solver import VelocitySolver
-from pose_integration import PoseIntegrator
+from src.radar_signal.dechirp import SignalPreprocessor
+from src.angle_estimation.angle_estimation import AngleEstimator
+from src.velocity_solver.velocity_solver import VelocitySolver
+from src.pose_integration.pose_integration import PoseIntegrator
 from evaluation.compute_velocity_error import VelocityErrorEvaluator
 from evaluation.compute_pose_error import PoseErrorEvaluator
 

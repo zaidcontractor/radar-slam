@@ -4,7 +4,7 @@
 
 This repository contains a complete implementation of the paper "3-D Ego-Motion Estimation Using Multi-Channel FMCW Radar" (Yuan et al. 2023) following the exact methodology described in the paper.
 
-## 🎯 Key Features
+## Key Features
 
 - **Raw Signal Synthesis**: Converts RadarScenes point clouds to synthetic FMCW baseband signals
 - **Signal Processing**: Implements dechirp, windowing, and 2D FFT for RDS generation
@@ -14,7 +14,7 @@ This repository contains a complete implementation of the paper "3-D Ego-Motion 
 - **Evaluation Framework**: APE and RTE metrics with ground truth comparison
 - **Comprehensive Testing**: Full test suite for all components
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Radar_Research/
@@ -42,7 +42,7 @@ Radar_Research/
 └── logs/                           # Logging and diagnostics
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -97,7 +97,7 @@ python src/pose_integration.py \
     --out ./output/poses/trajectory.npz
 ```
 
-## 🔬 Implementation Details
+## Implementation Details
 
 ### Raw Signal Synthesis (`scripts/simulate_raw.py`)
 
@@ -153,7 +153,7 @@ Comprehensive evaluation against ground truth:
 - **RTE**: Relative Trajectory Error over segments
 - **Visualization**: Error plots and trajectory comparisons
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive test suite:
 
@@ -168,7 +168,7 @@ python tests/test_synth_raw.py
 python -m pytest tests/ --cov=src --cov-report=html
 ```
 
-## 📊 Example Results
+## Example Results
 
 The implementation produces:
 
@@ -179,7 +179,7 @@ The implementation produces:
 5. **Trajectory**: Complete pose trajectory with position and orientation
 6. **Evaluation**: APE and RTE metrics for performance assessment
 
-## 🔧 Configuration
+## Configuration
 
 ### Radar Parameters
 
@@ -211,7 +211,7 @@ optimization_params = {
 }
 ```
 
-## 📈 Performance
+## Performance
 
 The implementation achieves:
 
@@ -221,7 +221,7 @@ The implementation achieves:
 - **Velocity Optimization**: ~5 frames/second
 - **Pose Integration**: ~1000 points/second
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -244,18 +244,14 @@ python scripts/run_ego_motion_pipeline.py [args...]
 - **Dataset**: RadarScenes (https://radar-scenes.com/)
 - **Implementation**: Follows exact methodology from Sections II & III
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Add tests for new functionality
 4. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Original paper authors for the methodology
 - RadarScenes dataset providers

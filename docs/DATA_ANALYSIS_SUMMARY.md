@@ -1,10 +1,10 @@
 # Radar Data Analysis Summary
 
-## 🎯 What Your Data Means
+## What the Data Means
 
-Based on the analysis of your processed radar data from **sequence_125** of the RadarScenes dataset, here's what we've discovered:
+Based on the analysis of the processed radar data from **sequence_125** of the RadarScenes dataset, here's what we've discovered:
 
-### 📊 **Overall Scene Characteristics**
+### **Overall Scene Characteristics**
 
 - **Total Processing**: 10 frames processed successfully
 - **Total Detections**: 192,363 radar targets detected across all frames
@@ -12,7 +12,7 @@ Based on the analysis of your processed radar data from **sequence_125** of the 
 - **Detection Range**: 1.1m to 60m (excellent coverage)
 - **Scene Type**: Dynamic, urban environment with significant motion
 
-### 🎯 **Target Distribution Analysis**
+### **Target Distribution Analysis**
 
 #### **Range Distribution:**
 - **Close Targets (<20m)**: 32.0% - Objects very close to the radar
@@ -24,7 +24,7 @@ Based on the analysis of your processed radar data from **sequence_125** of the 
 - **Stationary Targets**: 0% - No completely static objects
 - **Mean Doppler**: 446.8 Hz - Significant positive Doppler shift
 
-### 🔍 **What This Tells Us About the Scene**
+### **What This Tells Us About the Scene**
 
 #### **1. Urban Driving Environment**
 - The balanced distribution of near, medium, and far targets suggests a typical urban driving scenario
@@ -40,14 +40,14 @@ Based on the analysis of your processed radar data from **sequence_125** of the 
 - Good signal quality with 18.9 dB dynamic range
 - Strong radar returns from various object types
 
-### 📈 **Temporal Analysis (Frame-to-Frame)**
+### **Temporal Analysis (Frame-to-Frame)**
 
 - **Consistent Detection**: Peak counts remain stable (19,127 - 19,302 per frame)
 - **Stable Range**: Mean detection range stays around 30.6m
 - **Consistent Motion**: Mean Doppler remains around 438 Hz
 - **Continuous Scene**: No dramatic changes between frames
 
-### 🔬 **Technical Quality Assessment**
+### **Technical Quality Assessment**
 
 #### **Signal Quality:**
 - **Dynamic Range**: 136.4 dB (excellent)
@@ -55,14 +55,14 @@ Based on the analysis of your processed radar data from **sequence_125** of the 
 - **SNR**: High signal-to-noise ratio indicated by clear peak detection
 
 #### **Processing Success:**
-- ✅ **Raw Signal Synthesis**: 10/10 frames processed
-- ✅ **Range-Doppler Processing**: 10/10 frames processed  
-- ✅ **Peak Detection**: 192,363 peaks successfully detected
-- ⚠️ **Angle Estimation**: Framework ready, needs optimization
-- ⚠️ **Velocity Estimation**: Framework ready, needs targets
-- ⚠️ **Pose Integration**: Framework ready, needs velocity data
+- **Raw Signal Synthesis**: 10/10 frames processed
+- **Range-Doppler Processing**: 10/10 frames processed  
+- **Peak Detection**: 192,363 peaks successfully detected
+- **Angle Estimation**: Framework ready, needs optimization
+- **Velocity Estimation**: Framework ready, needs targets
+- **Pose Integration**: Framework ready, needs velocity data
 
-### 🎨 **Visualization Insights**
+### **Visualization Insights**
 
 The generated visualizations show:
 
@@ -81,7 +81,7 @@ The generated visualizations show:
    - Stable target counts
    - Continuous motion patterns
 
-### 🚗 **Real-World Interpretation**
+### **Real-World Interpretation**
 
 This data represents a **typical urban driving scenario** where:
 
@@ -91,7 +91,7 @@ This data represents a **typical urban driving scenario** where:
 - The environment is dynamic with continuous motion
 - The radar system is performing well with good target detection
 
-### 📋 **Next Steps for Analysis**
+### **Next Steps for Analysis**
 
 1. **Angle Estimation**: The framework is ready but needs optimization to extract azimuth angles from the detected peaks
 
@@ -101,15 +101,15 @@ This data represents a **typical urban driving scenario** where:
 
 4. **Ground Truth Comparison**: If ground truth is available, the system can evaluate accuracy
 
-### 🎯 **Key Takeaways**
+### **Key Takeaways**
 
-1. **✅ Excellent Data Quality**: Your radar data shows high-quality signals with good target detection
-2. **✅ Realistic Scenario**: The scene represents a typical urban driving environment
-3. **✅ Rich Information**: 192K+ targets provide abundant information for ego-motion estimation
-4. **✅ Processing Success**: The pipeline successfully processes raw signals into meaningful data
-5. **✅ Framework Ready**: All components are in place for complete ego-motion estimation
+1. **Excellent Data Quality**: Your radar data shows high-quality signals with good target detection
+2. **Realistic Scenario**: The scene represents a typical urban driving environment
+3. **Rich Information**: 192K+ targets provide abundant information for ego-motion estimation
+4. **Processing Success**: The pipeline successfully processes raw signals into meaningful data
+5. **Framework Ready**: All components are in place for complete ego-motion estimation
 
-### 🔧 **How to Use This Data**
+### **How to Use This Data**
 
 The processed data can be used for:
 
@@ -119,7 +119,7 @@ The processed data can be used for:
 - **SLAM Applications**: Simultaneous localization and mapping
 - **Autonomous Driving**: Path planning and obstacle avoidance
 
-### 📊 **Data Files Generated**
+### **Data Files Generated**
 
 Your processing pipeline has created:
 
